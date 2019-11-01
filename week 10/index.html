@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en" dir="ltr">
+<html ng appclass="no-js" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -11,6 +11,11 @@
 <script src="js/vendor/angular-1.7.8/angular.route-min.js"></script>
 
 
+<!-- The font Awesome code below is several revisions back.
+https://stackoverflow.com/questions/14698589/fontawesome-not-available-as-a-font-family
+I discovered that it would work from an article on stack overflow. all code should at some point be updated to reflect the last calling syntax for font awesome -->
+
+<link href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 
 
 
@@ -90,59 +95,61 @@
 
   <!-- begin footer-->
   <footer class="marketing-site-footer">
-  <div class="row medium-unstack">
-    <div class="medium-4 columns">
-      <h4 class="marketing-site-footer-name">Yeti Snowcone</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dolorem accusantium architecto id quidem, itaque nesciunt quam ducimus atque.</p>
+<div class="grid-x grid-padding-x">
+    <div class="medium-4 cell">
+      <h4 class="marketing-site-footer-name">ET-710</h4>
+      <p>Building and maintaining websites.</p>
       <ul class="menu marketing-site-footer-menu-social simple">
         <li><a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
          <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
          <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
       </ul>
     </div>
-    <div class="medium-4 columns">
+    <div class="medium-4 cell">
        <h4 class="marketing-site-footer-title">Contact Info</h4>
       <div class="marketing-site-footer-block">
         <i class="fa fa-map-marker" aria-hidden="true"></i>
-        <p>100 W Rincon<br>San Francisco, CA 94015</p>
+        <p>Queensborough Community College<br>Bayside, NY 11364</p>
       </div>
       <div class="marketing-site-footer-block">
         <i class="fa fa-phone" aria-hidden="true"></i>
-        <p>1 (800) 555-5555</p>
+        <p>123.456.7890</p>
       </div>
       <div class="marketing-site-footer-block">
         <i class="fa fa-envelope-o" aria-hidden="true"></i>
-        <p>yetirules@fakeemail.com</p>
+        <p>imaginaryhelp@gmail.com</p>
       </div>
     </div>
-    <div class="medium-4 columns">
-      <h4 class="marketing-site-footer-title">Instagram</h4>
-      <div class="row small-up-3">
-        <div class="column column-block">
+    <div class="large-4 cell">
+      <h4 class="marketing-site-footer-title">Photos</h4>
+        <div class="grid-x grid-padding-y">
+    <div class="large-4 medium-6 small-12 cell">
           <img src="https://placehold.it/75" alt="" />
         </div>
-        <div class="column column-block">
+    <div class="large-4 medium-6 small-12 cell">
           <img src="https://placehold.it/75" alt="" />
         </div>
-        <div class="column column-block">
+    <div class="large-4 medium-6 small-12 cell">
           <img src="https://placehold.it/75" alt="" />
         </div>
-        <div class="column column-block">
+    <div class="large-4 medium-6 small-12 cell">
           <img src="https://placehold.it/75" alt="" />
         </div>
-        <div class="column column-block">
+    <div class="large-4 medium-6 small-12 cell">
           <img src="https://placehold.it/75" alt="" />
         </div>
-        <div class="column column-block">
+    <div class="large-4 medium-6 small-12 cell">
           <img src="https://placehold.it/75" alt="" />
         </div>
       </div>
     </div>
   </div>
+
+
   <div class="marketing-site-footer-bottom">
     <div class="row large-unstack align-middle">
       <div class="column">
-        <p>&copy; 2017 No rights reserved</p>
+        <p>&copy; MDLawrence - 2017 All rights reserved</p>
       </div>
       <div class="column">
         <ul class="menu marketing-site-footer-bottom-links">
@@ -156,7 +163,7 @@
       </div>
     </div>
   </div>
-</footer>
+</footer
   <!-- end footer-->
 
 
